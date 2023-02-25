@@ -1,0 +1,16 @@
+#root {
+  text-align: center;
+}
+
+.cuerpo{
+  width: 100vw;
+  height: 91.5vh;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cuerpo * {
+  display: flex;
+  flex-direction: column;
+}

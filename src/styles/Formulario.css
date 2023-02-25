@@ -1,0 +1,49 @@
+.contenedor-formulario{
+    background-color: #fefae0;
+    padding: 0 20px;
+    height: 100%;
+    width: 50%;
+}
+
+form{
+    text-align: start;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.campo-formulario{
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e9edc9;
+    border-color: transparent;
+    outline: none;
+}
+
+label{
+    text-align: start;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: start;
+    margin: 20px 20px 20px 40px;
+}
+
+
+.boton-enviar{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    background-color: #faedcd;
+}
+
+.boton-enviar:hover{
+    cursor: pointer;
+}
